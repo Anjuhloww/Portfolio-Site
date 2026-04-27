@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #faf9f7;
+  --color-text: #1c1c1c;
+  --color-accent: #3d5a80;
+  --color-muted: #6b7280;
+  --color-border: #e5e3df;
+  --color-card-bg: #ffffff;
+  --color-tag-bg: #f0eeeb;
+}
+
+@theme inline {
+  --font-sans: var(--font-dm-sans);
+  --font-serif: var(--font-instrument-serif);
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Scroll-triggered fade-in animations */
+.animate-section {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.animate-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
