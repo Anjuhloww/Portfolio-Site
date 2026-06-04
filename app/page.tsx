@@ -94,12 +94,8 @@ export default function Home() {
             Projects
           </h2>
           <div className="grid gap-8 md:grid-cols-2">
-            {/* ClearCost Health Card */}
-            <a
-              href="https://clearcosthealth.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group block rounded-xl border transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+            <div
+              className="block rounded-xl border"
               style={{
                 borderColor: "var(--color-border)",
                 backgroundColor: "var(--color-card-bg)",
@@ -115,29 +111,17 @@ export default function Home() {
                 Preview coming soon
               </div>
               <div className="p-5">
-                <h3 className="font-semibold text-lg mb-1">ClearCost Health</h3>
                 <p
-                  className="text-sm mb-4 leading-relaxed"
+                  className="font-[family-name:var(--font-instrument-serif)] text-xl"
                   style={{ color: "var(--color-muted)" }}
                 >
-                  A free tool that turns public hospital pricing data into clear,
-                  actionable cost estimates for patients.
+                  coming soon...
                 </p>
-                <span
-                  className="text-sm font-medium transition-colors group-hover:opacity-80"
-                  style={{ color: "var(--color-accent)" }}
-                >
-                  View Project &rarr;
-                </span>
               </div>
-            </a>
+            </div>
 
-            {/* ImpactRx Card */}
-            <a
-              href="https://impactrx.io"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group block rounded-xl border transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+            <div
+              className="block rounded-xl border"
               style={{
                 borderColor: "var(--color-border)",
                 backgroundColor: "var(--color-card-bg)",
@@ -153,22 +137,14 @@ export default function Home() {
                 Preview coming soon
               </div>
               <div className="p-5">
-                <h3 className="font-semibold text-lg mb-1">ImpactRx</h3>
                 <p
-                  className="text-sm mb-4 leading-relaxed"
+                  className="font-[family-name:var(--font-instrument-serif)] text-xl"
                   style={{ color: "var(--color-muted)" }}
                 >
-                  An AI-powered economic impact report generator for hospitals and
-                  health systems.
+                  coming soon...
                 </p>
-                <span
-                  className="text-sm font-medium transition-colors group-hover:opacity-80"
-                  style={{ color: "var(--color-accent)" }}
-                >
-                  View Project &rarr;
-                </span>
               </div>
-            </a>
+            </div>
           </div>
         </section>
       </ScrollReveal>
