@@ -9,13 +9,6 @@ export default function Home() {
           <h1 className="font-[family-name:var(--font-instrument-serif)] text-5xl md:text-7xl font-normal tracking-tight leading-tight">
             Angelo Sacco
           </h1>
-          <p
-            className="mt-4 text-lg md:text-xl max-w-[560px]"
-            style={{ color: "var(--color-muted)" }}
-          >
-            Building AI-powered tools at the intersection of healthcare
-            and finance.
-          </p>
           <div className="mt-6 flex items-center gap-4">
             <a
               href="https://www.linkedin.com/in/angelo-sacco-as/"
@@ -79,9 +72,10 @@ export default function Home() {
               Economics, an MBA, and a Master&apos;s in Health Administration.
               I&apos;m drawn to the messy, high-stakes space where healthcare
               meets finance, and I believe better tools can make it more
-              transparent and accessible. Each project here represents something
-              I&apos;ve studied, questioned, or wanted to exist. Thanks for
-              checking out my work.
+              transparent and accessible. The projects below sit at the
+              intersection of my professional and personal interests — each
+              represents something I&apos;ve studied, questioned, or wanted to
+              exist. Thanks for checking out my work.
             </p>
           </div>
         </section>
